@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>CookieKit - Tailwind CSS Cookie Banners HTML Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="CookieKit - Tailwind CSS Cookie Banners HTML Template" name="description" />
+    <meta content="Techzaa" name="author" />
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <!-- tabler Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+
+    <!-- Font Family Nunito -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind css cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body style="font-family: 'Nunito', sans-serif; scroll-behavior: smooth;" class="h-screen bg-gradient-to-r from-indigo-500/20 via-sky-500/20 to-emerald-500/20">
+
+    <div id="cookies-simple-with-icon-and-dismiss-button" class="max-w-sm mx-auto m-4 fixed bottom-0 inset-x-0">
+        <div class="px-3 py-2 flex items-center justify-between gap-5 rounded-full border border-gray-200 bg-white">
+            <div class="flex items-center gap-2">
+                <i class="ti ti-cookie text-5xl"></i>
+                <p class="text-base font-medium text-gray-500">The website uses cookies.</p>
+            </div>
+            <button type="button" class="h-10 w-10 rounded-full flex items-center justify-center text-gray-900 bg-gray-100 hover:bg-gray-200 transition-all duration-500" data-hs-remove-element="#cookies-simple-with-icon-and-dismiss-button">
+                <span class="sr-only">Dismiss</span>
+                <i class="ti ti-x text-2xl"></i>    
+            </button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/preline@2.0.3/dist/preline.min.js"></script>
+
+</body>
+
+</html>
